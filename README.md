@@ -12,7 +12,7 @@ Twitter: @steven_king
 GitHub: @steven-king
 Phone: 919-360-8907
 
-##Course Description
+## Course Description
 
 Web programming, graphic design and storytelling for the Web. Students will use HTML5 CSS3, JavaScript and other web publishing languages while learning how to design, storyboard and script an interactive storytelling project. Students will collect and incorporate photos, text, video, graphics and database information into interactive multimedia presentations.
 
@@ -22,6 +22,6 @@ Producing effective multimedia projects requires extensive and detailed skill se
 
 Expertise in Web site layout using html, CSS, a code editing program and JavaScript/jQuery effective use of photography, graphics, artwork, audio, video and the written word solid, ethical journalistic decision-making Design thinking and visual problem solving
 
-##Prerequisites and Prior Knowledge
+## Prerequisites and Prior Knowledge
 
 JOMC 187 Introduction to Interactive Media. or proven experience of HTML, CSS and responsive design
