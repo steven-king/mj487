@@ -1,0 +1,33 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<people>
+	<person name="Michael Jordan" last="Jordan">
+		<location>Unknown, North Carolina</location>
+		<cords>p-540-181</cords>
+		<occupation>Basketball Owner</occupation>
+		<role>Only the greatest basketball player to ever play the game!</role>
+		<photo>images/thorp.jpg</photo>
+		<number>23</number>
+	</person>
+
+<person name="Thomas Wolfe" last="Wolfe">
+	<location>Ashville, NC</location>
+	<cords>p-540-181</cords>
+	<occupation>Writer</occupation>
+	<role>
+	An American novelist of the early twentieth century.Wolfe wrote four lengthy novels, plus many short stories, dramatic works, and novellas. He is known for mixing highly original, poetic, rhapsodic, and impressionistic prose with autobiographical writing. His books, written and published from the 1920s to the 1940s, vividly reflect on American culture and the mores of that period, filtered through Wolfe's sensitive, sophisticated, and hyper-analytical perspective.</role>
+	<photo>images/thomas-wolfe.jpg</photo>
+	<number>4</number>
+</person>
+
+<person name="Charles Kuralt" last="Kuralt">
+	<location>Wilmington, North Carolina</location>
+	<cords>p-540-181</cords>
+	<occupation>Journalist, Broadcaster</occupation>
+	<role>Charles Bishop Kuralt (September 10, 1934 – July 4, 1997) was an American journalist. He was most widely known for his long career with CBS, first for his "On the Road" segments on The CBS Evening News with Walter Cronkite, and later as the first anchor of CBS News Sunday Morning, a position he held for fifteen years.[1]
+
+Kuralt's "On the Road" segments were recognized twice with personal Peabody Awards. The first, awarded in 1968, cited those segments as heartwarming and "nostalgic vignettes"; in 1975, the award was for his work as a U.S. "bicentennial historian"; his work "capture[d] the individuality of the people, the dynamic growth inherent in the area, and ...the rich heritage of this great nation."[2] He shared in a third Peabody awarded to CBS News Sunday Morning.</role>
+	<photo>images/charles-kuralt.jpg</photo>
+	<number>6</number>
+	</person>
+
+</people>
