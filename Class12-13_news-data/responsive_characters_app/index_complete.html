@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <link rel="shortcut icon" href="../../assets/ico/favicon.ico">
+
+    <title>NCAA Players</title>
+
+    <!-- Bootstrap core CSS -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Custom styles for this template -->
+    <link href="css/styles.css" rel="stylesheet">
+
+
+
+
+</head>
+
+<body>
+
+<div class="container">
+	<div class="header">
+		<a name="top"></a>
+		<h1>NCAA Investigation Players</h1></div>
+	<div class="sidebar1">
+		<h3 id="top">Characters</h3>
+  <div class="col-md-3  bg-blue">
+
+		<ul class="nav">
+			<span id= "nav-list"></span>
+		</ul>
+  </div>
+	</div><!-- end .sidebar1 -->
+
+
+	<div class="content">
+   <div class="col-md-9">
+    <ul>
+      <span id="player-thumbs"></span>
+     </ul>
+<hr>
+
+		<ul><span id="person"></span> </ul>
+  </div>
+	</div><!-- end .content -->
+
+	<div class="footer">
+		<p>Credits and extra info goes here.</p>
+	</div><!-- end .footer -->
+</div><!-- end .container -->
+
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+  <script src="js/bootstrap.min.js"></script>
+  <script src="js/jquery.tinyscrollbar.min.js"></script>
+
+
+<script type="text/javascript">
+
+$(document).ready(function() {
+
+startLoadXml();
+
+});
+
+function startLoadXml() {
+$("#message").text("loadXML has begun!");
+$.ajax({
+type: "GET",
+url: "ncaa.xml",
+dataType: "xml",
+success: parseXml
+});
+} //close loadXML
+
+
+function parseXml(xml)
+{
+var htmlBottom = '';
+var htmlList = '';
+var htmlThumbs='';
+
+
+$(xml).find("person").each(function(index){
+//Builds left sidebar link content
+htmlList += '<li><a href="#' + $(this).attr("last") + '"><img src="' + $(this).find("photo").text() + '" width="48" height="48" alt="portrait" /> ';
+htmlList += $(this).attr("name") + '</a></li><div style="clear: both;"></div>';
+
+//Builds bottom of page content
+htmlBottom += '<img class="float-right" src="' + $(this).find("photo").text() + '" width="200" height="200" alt="portrait"/>';
+htmlBottom += '<ul class="characters"><li>';
+htmlBottom += '<h3 id="' + $(this).attr("last") + '">' + $(this).attr("name") + '</h3></li>';
+htmlBottom += '<ul class="subcharacters"><li>Location: ' + $(this).find("location").text() + '</li>';
+htmlBottom += '<li>Occupation: ' + $(this).find("occupation").text() + '</li>';
+htmlBottom += '<li>' + $(this).find("role").text() + '</li>';
+htmlBottom += '<a href="#top">Return to Top Menu</a>';
+htmlBottom += '</ul></ul>';
+
+//Builds Thumbnails at top of page.
+htmlThumbs += '<a href="#' + $(this).attr("last") + '"><img class="thumb-nav" src="' + $(this).find("photo").text() + '" width="100" height="100" alt="portrait"/></a>';
+
+
+
+
+});
+
+$("#nav-list").append(htmlList);
+$("#person").append(htmlBottom);
+$("#player-thumbs").append(htmlThumbs);
+$("#nav-list").tinyscrollbar();
+
+
+
+}
+
+</script>
+
+
+
+</body>
+
+
+</html>
