@@ -1,0 +1,281 @@
+[
+  {
+    "index": 0,
+    "balance": "$2,740.01",
+    "picture": "http://placehold.it/32x32",
+    "age": 27,
+    "school": "NCSTATE",
+    "name": "Wilda Baldwin",
+    "gender": "female"
+  },
+  {
+    "index": 1,
+    "balance": "$3,245.91",
+    "picture": "http://placehold.it/32x32",
+    "age": 29,
+    "school": "NCSTATE",
+    "name": "Celeste Mclaughlin",
+    "gender": "female"
+  },
+  {
+    "index": 2,
+    "balance": "$1,267.01",
+    "picture": "http://placehold.it/32x32",
+    "age": 21,
+    "school": "DUKE",
+    "name": "Ashley Larson",
+    "gender": "female"
+  },
+  {
+    "index": 3,
+    "balance": "$2,935.18",
+    "picture": "http://placehold.it/32x32",
+    "age": 20,
+    "school": "UNC",
+    "name": "Tran Espinoza",
+    "gender": "male"
+  },
+  {
+    "index": 4,
+    "balance": "$3,602.58",
+    "picture": "http://placehold.it/32x32",
+    "age": 25,
+    "school": "UNC",
+    "name": "Swanson Sykes",
+    "gender": "male"
+  },
+  {
+    "index": 5,
+    "balance": "$2,062.74",
+    "picture": "http://placehold.it/32x32",
+    "age": 22,
+    "school": "DUKE",
+    "name": "Sadie Ryan",
+    "gender": "female"
+  },
+  {
+    "index": 6,
+    "balance": "$2,730.26",
+    "picture": "http://placehold.it/32x32",
+    "age": 20,
+    "school": "DUKE",
+    "name": "Kayla Sanders",
+    "gender": "female"
+  },
+  {
+    "index": 7,
+    "balance": "$2,075.88",
+    "picture": "http://placehold.it/32x32",
+    "age": 23,
+    "school": "UNC",
+    "name": "Lorrie Lester",
+    "gender": "female"
+  },
+  {
+    "index": 8,
+    "balance": "$3,696.03",
+    "picture": "http://placehold.it/32x32",
+    "age": 25,
+    "school": "NCSTATE",
+    "name": "Ollie Quinn",
+    "gender": "female"
+  },
+  {
+    "index": 9,
+    "balance": "$3,923.85",
+    "picture": "http://placehold.it/32x32",
+    "age": 21,
+    "school": "DUKE",
+    "name": "Rita Hoover",
+    "gender": "female"
+  },
+  {
+    "index": 10,
+    "balance": "$1,562.34",
+    "picture": "http://placehold.it/32x32",
+    "age": 21,
+    "school": "NCSTATE",
+    "name": "Madeleine Harper",
+    "gender": "female"
+  },
+  {
+    "index": 11,
+    "balance": "$1,897.84",
+    "picture": "http://placehold.it/32x32",
+    "age": 29,
+    "school": "DUKE",
+    "name": "Corrine Justice",
+    "gender": "female"
+  },
+  {
+    "index": 12,
+    "balance": "$1,806.05",
+    "picture": "http://placehold.it/32x32",
+    "age": 27,
+    "school": "UNC",
+    "name": "Lupe Callahan",
+    "gender": "female"
+  },
+  {
+    "index": 13,
+    "balance": "$2,257.50",
+    "picture": "http://placehold.it/32x32",
+    "age": 25,
+    "school": "DUKE",
+    "name": "Ofelia Newman",
+    "gender": "female"
+  },
+  {
+    "index": 14,
+    "balance": "$1,181.57",
+    "picture": "http://placehold.it/32x32",
+    "age": 32,
+    "school": "UNC",
+    "name": "Rosario Kane",
+    "gender": "female"
+  },
+  {
+    "index": 15,
+    "balance": "$3,290.01",
+    "picture": "http://placehold.it/32x32",
+    "age": 27,
+    "school": "UNC",
+    "name": "Millie Buchanan",
+    "gender": "female"
+  },
+  {
+    "index": 16,
+    "balance": "$1,597.31",
+    "picture": "http://placehold.it/32x32",
+    "age": 21,
+    "school": "DUKE",
+    "name": "Lang Lee",
+    "gender": "male"
+  },
+  {
+    "index": 17,
+    "balance": "$1,184.82",
+    "picture": "http://placehold.it/32x32",
+    "age": 31,
+    "school": "NCSTATE",
+    "name": "Cabrera Harvey",
+    "gender": "male"
+  },
+  {
+    "index": 18,
+    "balance": "$1,024.40",
+    "picture": "http://placehold.it/32x32",
+    "age": 31,
+    "school": "UNC",
+    "name": "Cole Robles",
+    "gender": "male"
+  },
+  {
+    "index": 19,
+    "balance": "$3,645.58",
+    "picture": "http://placehold.it/32x32",
+    "age": 23,
+    "school": "UNC",
+    "name": "Shepard Holman",
+    "gender": "male"
+  },
+  {
+    "index": 20,
+    "balance": "$2,644.92",
+    "picture": "http://placehold.it/32x32",
+    "age": 22,
+    "school": "DUKE",
+    "name": "Shari Mccoy",
+    "gender": "female"
+  },
+  {
+    "index": 21,
+    "balance": "$3,165.63",
+    "picture": "http://placehold.it/32x32",
+    "age": 29,
+    "school": "NCSTATE",
+    "name": "Natalie Levy",
+    "gender": "female"
+  },
+  {
+    "index": 22,
+    "balance": "$3,507.03",
+    "picture": "http://placehold.it/32x32",
+    "age": 21,
+    "school": "NCSTATE",
+    "name": "Gena Colon",
+    "gender": "female"
+  },
+  {
+    "index": 23,
+    "balance": "$3,773.82",
+    "picture": "http://placehold.it/32x32",
+    "age": 24,
+    "school": "NCSTATE",
+    "name": "Melton Yates",
+    "gender": "male"
+  },
+  {
+    "index": 24,
+    "balance": "$2,032.07",
+    "picture": "http://placehold.it/32x32",
+    "age": 24,
+    "school": "DUKE",
+    "name": "Bell Noble",
+    "gender": "male"
+  },
+  {
+    "index": 25,
+    "balance": "$1,890.45",
+    "picture": "http://placehold.it/32x32",
+    "age": 31,
+    "school": "DUKE",
+    "name": "Beryl Potter",
+    "gender": "female"
+  },
+  {
+    "index": 26,
+    "balance": "$1,901.88",
+    "picture": "http://placehold.it/32x32",
+    "age": 22,
+    "school": "NCSTATE",
+    "name": "Tia Hyde",
+    "gender": "female"
+  },
+  {
+    "index": 27,
+    "balance": "$2,555.49",
+    "picture": "http://placehold.it/32x32",
+    "age": 25,
+    "school": "DUKE",
+    "name": "Jeanine Kim",
+    "gender": "female"
+  },
+  {
+    "index": 28,
+    "balance": "$2,843.78",
+    "picture": "http://placehold.it/32x32",
+    "age": 27,
+    "school": "DUKE",
+    "name": "Golden Hinton",
+    "gender": "male"
+  },
+  {
+    "index": 29,
+    "balance": "$2,227.52",
+    "picture": "http://placehold.it/32x32",
+    "age": 31,
+    "school": "DUKE",
+    "name": "Saundra Burnett",
+    "gender": "female"
+  },
+  {
+    "index": 30,
+    "balance": "$1,082.00",
+    "picture": "http://placehold.it/32x32",
+    "age": 25,
+    "school": "DUKE",
+    "name": "Leila Sharpe",
+    "gender": "female"
+  }
+]
